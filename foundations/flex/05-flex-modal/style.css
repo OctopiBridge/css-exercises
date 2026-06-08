@@ -15,11 +15,28 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-size: 20px;
+  
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+}
+
+.firstline {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text {
+  padding: 10px;
+  padding-left: 50px;
 }
 
 .icon {
@@ -60,10 +77,15 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 50px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.close-button{
+  margin-left: 80px;
 }
